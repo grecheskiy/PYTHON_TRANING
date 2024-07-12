@@ -1,0 +1,14 @@
+INFO     2024-07-12 12:15:44,900 date_parser.days_parsing '1-й четверг ноября' - Ok
+INFO     2024-07-12 12:15:44,900 date_parser.days_parsing '3-я среда мая' - Ok
+ERROR    2024-07-12 12:15:44,901 date_parser.days_parsing '5-я среда мая' - Wrong week number of a month! Week number must be from 1 to 4 included.
+ERROR    2024-07-12 12:15:44,901 date_parser.days_parsing '2-я середина мая' - Wrong name of weekday!
+ERROR    2024-07-12 12:15:44,901 date_parser.days_parsing '2-я среда травня' - Wrong month name!
+ERROR    2024-07-12 12:15:44,901 date_parser.days_parsing 'None' - TextToDate.__call__() missing 1 required positional argument: 'text'
+ERROR    2024-07-12 12:15:44,901 date_parser.days_parsing '' - not enough values to unpack (expected 3, got 0)
+INFO     2024-07-12 12:25:50,256 date_parser.days_parsing '1-й четверг ноября' - Ok
+INFO     2024-07-12 12:25:50,256 date_parser.days_parsing '3-я среда мая' - Ok
+ERROR    2024-07-12 12:25:50,257 date_parser.days_parsing '5-я среда мая' - Wrong week number of a month! Week number must be from 1 to 4 included.
+ERROR    2024-07-12 12:25:50,257 date_parser.days_parsing '2-я середина мая' - Wrong name of weekday!
+ERROR    2024-07-12 12:25:50,257 date_parser.days_parsing '2-я среда травня' - Wrong month name!
+ERROR    2024-07-12 12:25:50,257 date_parser.days_parsing 'None' - TextToDate.__call__() missing 1 required positional argument: 'text'
+ERROR    2024-07-12 12:25:50,257 date_parser.days_parsing '' - not enough values to unpack (expected 3, got 0)
